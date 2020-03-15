@@ -1,0 +1,58 @@
+page{
+  display: flex;
+  flex-direction: column;
+  background: #17181a;
+  color: #ccc;
+  height: 100%
+}
+
+.tab {
+  display: flex;
+}
+
+.tab-item{
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+}
+
+.content{
+  flex: 1;   /* 空间平均分布 */
+}
+
+.content > swiper{
+  height: 100%;
+}
+
+.player{
+  background: #222;
+  border-top: 1rpx solid #252525;
+  height: 112rpx;
+}
+
+.active{
+  color: #c25b5b;
+  border-bottom-color: #c25b5b;
+}
+
+.content-info{
+  height: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.content-info-slide{
+  height: 302rpx;
+  margin-bottom: 20px;
+}
+
+.content-info-slide image{
+  width: 100%;
+  height: 100%;
+}

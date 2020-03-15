@@ -1,0 +1,13 @@
+<scroll-view class="content-info" scroll-y>
+  <swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+    <swiper-item>
+      <image src="/images/banner.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner.jpg"></image>
+    </swiper-item>
+  </swiper>
+</scroll-view>
