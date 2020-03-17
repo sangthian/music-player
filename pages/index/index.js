@@ -9,7 +9,6 @@ Page({
   },
   changeItem(e){
     this.setData({
-      
       item: e.target.dataset.item
     })
   },
