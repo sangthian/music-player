@@ -18,4 +18,17 @@
   </swiper>
 </view>
 
-<view class="player"></view>
+<!-- 底部播放器 -->
+<view class="player">
+  <image class="player-cover" src="{{play.coverImgUrl}}" />
+  <view class="player-info">
+    <view class="player-info-title">{{play.title}}</view>
+    <view class="player-info-singer">{{play.singer}}</view>
+  </view>
+  <!-- 控制按钮 -->
+  <view class="player-controls">
+    <image src="/images/01.png" bindtap="changePage" data-page="2" />
+    <image src="/images/02.png" />
+    <image src="/images/03.png" />
+  </view>
+</view>
