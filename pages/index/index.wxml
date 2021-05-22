@@ -28,7 +28,10 @@
   <!-- 控制按钮 -->
   <view class="player-controls">
     <image src="/images/01.png" bindtap="changePage" data-page="2" />
-    <image src="/images/02.png" />
-    <image src="/images/03.png" />
+    <!-- <image src="/images/02.png" /> -->
+    <imagee wx:if="{{state=='paused'}}" src="/images/02.png" bindtap="play" />
+    <image wx:else src="/images/02stop.png" bindtap="pause" />
+    <!-- 下一曲 -->
+    <image src="/images/03.png" bindtap="next" />
   </view>
 </view>
